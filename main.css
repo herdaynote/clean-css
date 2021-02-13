@@ -25,7 +25,8 @@ a {
     font-weight: 700;
     text-decoration: none;
     color: inherit;
-    transition: .3s
+    transition: .3s;
+    user-select: none;
 }
 
 h1, h2, h3, h4, h5, h6,
