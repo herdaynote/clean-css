@@ -1,0 +1,29 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 0 12.8px 0;
+}
+
+table thead th, table tbody td {
+    border: 2px solid #f8f9fa;
+    color: #f8f9fa;
+    padding: 8px;
+}
+
+table thead tr {
+    background: #343a40;
+}
+
+table tbody tr {
+    background: #3f7bc3;
+}
+
+table tbody tr:nth-child(even) {
+    background: #5fa1f0;
+}
+
+.table-responsive {
+    display: block;
+    margin: 0 0 12.8px 0;
+    overflow-x: auto;
+}
