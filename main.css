@@ -25,3 +25,103 @@ a {
     color: inherit;
     transition: .3s
 }
+
+h1, h2, h3, h4, h5, h6,
+p, pre, code, samp, var {
+    color: #343a40;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    margin: 0 0 12.8px 0;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0 0 12.8px 0;
+    text-align: justify;
+}
+
+blockquote {
+    background: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    margin: 0 0 12.8px;
+    padding: 12.8px;
+    border-left: 5px solid #6daffe;
+    box-shadow: 0 2px 12px rgba(36, 38, 64, .035);
+}
+
+small {
+    font-size: 14px;
+}
+
+sub, sup {
+    font-size: 12.8px;
+    line-height: inherit;
+}
+
+pre, kbd, code, var. samp {
+    font-family: SFMono-Regular, Menlo, Monaco,
+    Consolas, "Liberation Mono", "Courier New",
+    monospace;
+    font-size: 14.8px;
+}
+
+pre {
+    background: #fff;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0 0 12.8px 0;
+    padding: 12.8px;
+    box-shadow: 0 2px 12px rgba(36, 38, 64, .035);
+}
+
+kbd {
+    background: #343a40;
+    font-weight: 700;
+    border-radius: 3.75px;
+    color: #fff;
+    margin: 0 2px;
+    padding: 2px 4px;
+}
+
+code {
+    color: inherit;
+}
+
+var {
+    font-weight: 700;
+    font-style: italic;
+}
+
+samp {
+    font-weight: 700;
+}
