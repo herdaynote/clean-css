@@ -1,31 +1,71 @@
 .cl-green {
-    color: #469726;
+    color: #2E6119;
 }
 
 .cl-cyan {
-    color: #407ee7;
+    color: #1651B6;
 }
 
 .cl-blue {
-    color: #6666ea;
+    color: #3A3AE4;
 }
 
 .cl-magenta {
-    color: #c33ff3;
+    color: #8C0CBB;
 }
 
 .cl-red {
-    color: #f22c40;
+    color: #B10B1C;
 }
 
 .cl-yellow {
-    color: #c38418;
+    color: #75500F;
 }
 
 .cl-orange {
-    color: #df5320;
+    color: #983816;
 }
 
 .cl-white {
     color: #f8f9fa;
+}
+
+.cl-black {
+    color: #343a40;
+}
+@media (prefers-color-scheme: dark) {
+    .cl-green {
+        color: #55B82E;
+    }
+
+    .cl-cyan {
+        color: #72A0EE;
+    }
+
+    .cl-blue {
+        color: #9696EE;
+    }
+
+    .cl-magenta {
+        color: #D77BF9;
+    }
+
+    .cl-red {
+        color: #F97683;
+    }
+
+    .cl-yellow {
+        color: #D5911A;
+    }
+
+    .cl-orange {
+        color: #E98763;
+    }
+
+    .cl-white {
+        color: #f8f9fa;
+    }
+
+    .cl-black {
+        color: #343a40;
 }
